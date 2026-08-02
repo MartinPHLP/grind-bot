@@ -9,7 +9,7 @@ FEED_CHANNEL_ID = int(os.getenv("FEED_CHANNEL_ID", "0"))
 SUIVI_CHANNEL_ID = int(os.getenv("SUIVI_CHANNEL_ID", "0"))
 
 TZ = "Europe/Paris"
-DB_PATH = "grind.db"
+DB_PATH = "/data/grind.db"
 
 # Nombre max d'objectifs par semaine (limite technique : un formulaire
 # Discord accepte 5 champs max, 1 est reservé à la motivation)
