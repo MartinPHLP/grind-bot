@@ -1,0 +1,4 @@
+venv/
+.env
+grind.db
+__pycache__/
